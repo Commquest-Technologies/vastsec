@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include vastsec *.css
+recursive-include vastsec *.csv
+recursive-include vastsec *.html
+recursive-include vastsec *.ico
+recursive-include vastsec *.js
+recursive-include vastsec *.json
+recursive-include vastsec *.md
+recursive-include vastsec *.png
+recursive-include vastsec *.py
+recursive-include vastsec *.svg
+recursive-include vastsec *.txt
+recursive-exclude vastsec *.pyc
